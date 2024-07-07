@@ -13,7 +13,7 @@ class Solution:
                 if tmp and brackets[i]==tmp[-1]:
                     tmp.pop()
                 else:
-                    return True
+                    return False
             
 
         if tmp:
